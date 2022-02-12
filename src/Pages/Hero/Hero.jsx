@@ -6,7 +6,7 @@ function Hero() {
     <div className="hero">
       <div className="hero-left">
         <h1 className="hero-h1">
-          Hi! We're <br /> Matt and John
+          Hi! Welcome to <br /> Menza labs
         </h1>
         <p className="desc-hero">
           MENZA Labs we are a creative technology company building Virtual
