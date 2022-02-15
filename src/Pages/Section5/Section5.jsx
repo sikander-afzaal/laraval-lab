@@ -8,7 +8,7 @@ function Section2() {
         <img src={img} alt="" />
       </div>
       <div className="right-section5">
-        <h1>Metaapeland</h1>
+        <h1>Vision</h1>
         <p>
           Our Vision is to create gamified environments for education based
           learning corporate training and entertainment Purposes .We are also
