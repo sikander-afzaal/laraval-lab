@@ -1,6 +1,6 @@
 import React from "react";
 import "./Section5.css";
-import img from "../../Assets/Image1.jpeg";
+import img from "../../../Assets/Image1.jpeg";
 function Section2() {
   return (
     <div className="section5">

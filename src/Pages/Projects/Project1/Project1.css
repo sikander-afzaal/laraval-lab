@@ -1,0 +1,95 @@
+.project1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  gap: 4rem;
+  padding-bottom: 2rem;
+}
+.navbar-project {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+}
+.navlink-project {
+  color: #ff04b4;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-bottom: 2px solid transparent;
+  transition: all 0.25s ease-in-out;
+}
+.active {
+  border-color: #ff04b4;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 700px;
+  gap: 4rem;
+}
+.project-box {
+  background-color: #638596;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem 0rem;
+  flex-direction: column;
+  border-radius: 25px;
+}
+.text-div-box {
+  color: white;
+  padding: 0rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+  flex-direction: column;
+}
+.text-div-box h1 {
+  font-size: 2.4rem;
+}
+.text-div-box p {
+  line-height: 1.5;
+  font-weight: 500;
+}
+.box-img_project {
+  object-fit: contain;
+  width: 80%;
+  max-width: 100%;
+}
+.display-none {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .project-grid {
+    gap: 20px;
+  }
+  .project1 {
+    gap: 2rem;
+    margin-top: 0rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 560px) {
+  .navbar-project {
+    gap: 20px;
+  }
+  .navlink-project {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 405px) {
+  .navbar-project {
+    gap: 13px;
+  }
+  .navlink-project {
+    font-size: 1rem;
+  }
+}

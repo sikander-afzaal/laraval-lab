@@ -2,22 +2,25 @@ import React from "react";
 import "./Header.css";
 import social from "../../Assets/twitter.svg";
 import Logo from "../../Assets/logo.png";
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="header">
       <div className="left-header">
-        <img src={Logo} alt="" className="logo" />
+        <Link to="/">
+          <img src={Logo} alt="" className="logo" />
+        </Link>
       </div>
       <div className="right-header">
-        <a href="#" className="nav-link">
+        <Link to="/projects" className="nav-link">
           Projects
-        </a>
-        <a href="#" className="nav-link">
+        </Link>
+        <Link to="#" className="nav-link">
           Writing
-        </a>
-        <a href="#" className="nav-link">
+        </Link>
+        <Link to="#" className="nav-link">
           About
-        </a>
+        </Link>
         <img src={social} alt="" className="twitter" />
       </div>
     </div>

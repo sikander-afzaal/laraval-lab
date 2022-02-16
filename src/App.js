@@ -1,21 +1,19 @@
 import "./App.css";
 import Header from "./Layout/Header/Header.jsx";
-import Hero from "./Pages/Hero/Hero.jsx";
-import Section2 from "./Pages/Section2/Section2.jsx";
-import Section3 from "./Pages/Section3/Section3.jsx";
-import Section4 from "./Pages/Section4/Section4.jsx";
-import Section5 from "./Pages/Section5/Section5.jsx";
+import "./Pages/Page1/Page1.jsx";
+import Page1 from "./Pages/Page1/Page1.jsx";
+import Project from "./Pages/Projects/Project.jsx";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <div className="top-cont">
+      <BrowserRouter>
         <Header />
-        <Hero />
-      </div>
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
+        <Routes>
+          <Route path="/" element={<Page1 />} />
+          <Route path="/projects" element={<Project />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import bg from "../../Assets/Bg.jpeg";
+import bg from "../../../Assets/Bg.jpeg";
 function Hero() {
   return (
     <div className="hero">
