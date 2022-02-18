@@ -21,7 +21,12 @@ function Header() {
         <Link to="/about" className="nav-link">
           About
         </Link>
-        <img src={social} alt="" className="twitter" />
+        <a
+          target={"blank"}
+          href="https://twitter.com/menza_labs?t=r_QNUC9BtfYRmblLbj-aHA&s=09"
+        >
+          <img src={social} alt="" className="twitter" />
+        </a>
       </div>
     </div>
   );

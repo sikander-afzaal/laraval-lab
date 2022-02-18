@@ -23,6 +23,7 @@
   align-items: center;
 }
 .twitter {
+  cursor: pointer;
   width: 1.9rem;
 }
 .nav-link {
