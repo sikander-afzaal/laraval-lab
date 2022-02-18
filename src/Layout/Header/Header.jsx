@@ -18,7 +18,7 @@ function Header() {
         <Link to="/vision" className="nav-link">
           Vision
         </Link>
-        <Link to="#" className="nav-link">
+        <Link to="/about" className="nav-link">
           About
         </Link>
         <img src={social} alt="" className="twitter" />

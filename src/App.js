@@ -4,6 +4,7 @@ import "./Pages/Page1/Page1.jsx";
 import Page1 from "./Pages/Page1/Page1.jsx";
 import Project from "./Pages/Projects/Project.jsx";
 import Vision from "./Pages/Vision/Vision.jsx";
+import About from "./Pages/About/About.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
@@ -11,9 +12,10 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Page1 />} />
-          <Route path="/projects" element={<Project />} />
-          <Route path="/vision" element={<Vision />} />
+          <Route exact path="/" element={<Page1 />} />
+          <Route exact path="/projects" element={<Project />} />
+          <Route exact path="/vision" element={<Vision />} />
+          <Route exact path="/about" element={<About />} />
         </Routes>
       </BrowserRouter>
     </div>
