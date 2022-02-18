@@ -15,8 +15,8 @@ function Header() {
         <Link to="/projects" className="nav-link">
           Projects
         </Link>
-        <Link to="#" className="nav-link">
-          Writing
+        <Link to="/vision" className="nav-link">
+          Vision
         </Link>
         <Link to="#" className="nav-link">
           About
