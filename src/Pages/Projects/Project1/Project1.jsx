@@ -46,13 +46,9 @@ function Project1() {
           <div className="text-div-box">
             <h1>Metaapeland</h1>
             <p>
-              Our Metaverse platform is a simulated environment of real world
-              economy for kids and adults to learn build while socializing with
-              other people. Our Metaverse platform will also be able to support
-              other business and there virtual stores in our Metaverse. This
-              will inturn help our Metaverse to cater to a bigger audience as
-              well as kids can also manage and set up there own stores and see
-              what it like to manage their own business and monetize it.
+            Our Metaverse platform is a simulated environment of real world economy for kids and adults to learn build while socializing with other people. Our Metaverse platform will also be able to support other business and their virtual stores in our Metaverse. This will inturn help
+
+our Metaverse to cater to a bigger audience as well as kids can also manage and set up their own stores and see what it like to manage their own business or experiences as services and monetize it. Certain levels will also have ED tech problem solving games for kids to learn math sciences and other subjects in AR VR XR environments in turn gamifying the whole learning experience.
             </p>
           </div>
 
@@ -79,15 +75,8 @@ function Project1() {
           <div className="text-div-box">
             <h1>Autolysis</h1>
             <p>
-              Autolysis is an Analytics application for Digital assets created
-              for Web 3.0 application. Our application will be able to analyze
-              share information on different metrics of its performance in the
-              market and help consumers to better understand the Market of
-              digital assets as well as the end use to their assets . We will
-              also be using this metrics to better evaluate Digital assets with
-              real world products or utility . This is help consumers understand
-              what is it that they r buying and if it has a utility or a if it’s
-              a collector’s item.
+            Autolysis is an Analytics application for Digital assets created for Web 3.0 application. Our application will be able to analyze share information on different metrics of its performance in the market and help consumers to better understand the Market of digital assets as well as the end use to their assets . We will also be using these metrics to better evaluate Digital assets with real world products or utility . This is help consumers understand what is it that they are buying and if it has a utility or a if it’s a collector’s item.
+            This is to help consumers understand what is it that they are buying and if it has a utility or if it’s a collector’s item.
             </p>
           </div>
 

@@ -10,10 +10,7 @@ function Section2() {
       <div className="right-section4">
         <h1>Autolysis</h1>
         <p>
-          A Database of use generated virtual assets analysis where one can view
-          breakdown of Analytics of ownership usage price action and other
-          different types of parameters of Analytics for user generated Virtual
-          assets in AR VR XR and gaming Ecosystem
+        A database of user generated virtual assets analytics where one can view breakdown of analysis of user price action and other different type of parameters in AR VR XR and Gaming Ecosystem.
         </p>
         <button className="readmore">READ MORE</button>
       </div>

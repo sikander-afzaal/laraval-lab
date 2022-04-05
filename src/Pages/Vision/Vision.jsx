@@ -30,13 +30,7 @@ function Vision() {
         <div style={{ order: 1 }} className="vision-box-bottom">
           <h1>Our Vision</h1>
           <p>
-            Our Vision is to create an engaging virtual environment that is
-            immersive and valuable to the end consumers . We will also be
-            helping other business with design and creation of there own
-            Metaverse or virtual environment and digital assets in accordance to
-            there products or services. With the help of VR AR XR and gamified
-            mechanism we believe that a virtual economy can be created where
-            people can create and exchange value digitally .
+          Our Vision is to create an engaging virtual environment that is immersive and valuable to the end consumers . We will also be helping other business with design and creation of their own Metaverse or virtual environment and digital assets in accordance to their products or services. With the help of VR AR XR and gamified mechanism we believe that a virtual economy can be created where people can create and exchange value digitally.
           </p>
         </div>
       </div>
